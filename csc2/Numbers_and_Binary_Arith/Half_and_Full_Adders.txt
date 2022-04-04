@@ -1,0 +1,42 @@
+An adder is a circuit that adds binary numbers
+
+Half Adder
+    Truth Table:
+        Inputs      Outputs
+        A   B       S   C
+        0   0       0   0
+        0   1       1   0
+        1   0       1   0
+        1   1       0   1
+                    XOR AND
+
+    Building the Digital Circuitry:
+        S/XOR:
+            !A and  B
+               or
+            A  and  !B
+        C/AND:
+            A and B
+
+    
+    Boolean:
+        S = (A*!B) + (!A*B)
+        C = A*B
+
+
+Full Adder:
+
+    Truth Table:
+        Inputs          Outputs
+        In  A   B       S   Out 
+        0   0   0       0   0
+        0   0   1       1   0
+        0   1   0       1   0
+        0   1   1       0   1
+        1   0   0       1   0
+        1   0   1       0   1
+        1   1   0       0   1
+        1   1   1       1   1
+
+    Digital Circuitry:
+        A & B in HA * result & In in HA

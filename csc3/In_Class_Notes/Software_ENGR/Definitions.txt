@@ -1,0 +1,33 @@
+Software Life Cycle - model of development, use, maintanence, discarding of sw
+
+CRC Card    -   tool used to organise thoughts before/while coding
+            -   'Class, Responsibility, Collaborators'
+
+Iterative Development   -   creating software is iterative (?)
+
+Documentation   -   describes what and why
+
+Prototyping -   generation of a preliminary model
+
+Errors  -   syntax errors   --  physical errors like wrong indentation
+        -   logic errors    --  something that causes undesired behavior
+        -   runtime errors  --  error during the execution of a program
+        -   error reporting --  passing the error of (normally to a human)
+        -   error handling  --  taking care of errors programatically (exceptions)
+
+Sanatizing Input    -   ensuring input is proper type, range, ect.
+
+Exceptions  -   interruptions in the normal flow
+
+Testing -   searching for errors 
+        -   unit testing        --  testing a specific unit by itself
+        -   regression testing  --  testing code that had worked to make sure it still does
+
+Debugging   -   finding an error's source
+            -   manual walkthrough          --  stepping away and running through the program by hand
+            -   rubber duck Debugging       --  talking to a wall 
+            -   a debugger                  --  an interactive tool that assists with Debugging
+
+Profiler    -   tool that shows the preformance of a program
+
+Refactoring -   modifying code without introducing features

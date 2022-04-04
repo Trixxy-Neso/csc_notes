@@ -1,0 +1,11 @@
+Object Oriented Program (OOP)
+- Objects are used to model IRL items
+- Strings are Objects
+
+- State and Behavior
+    - State: Atributes that make an Object itself
+    - Behavior: The actions an Object can perform
+
+- Classes and Instances
+    - Class: The abstract/blueprint/template of an Object
+    - Instantiation: Process of creating an instance of the Class

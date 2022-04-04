@@ -1,0 +1,30 @@
+1) Arrays   -   ordered sequence of values
+            -   location of a value is its index
+            -   stored in continous memory locations
+            -   must remain the same size
+            -   all items must be the same type
+                EX: Speed Limits - [85, 25, 10, 85, 35]
+
+2) Linked List  -   made of nodes
+                -   nodes contain two parts: data and link 
+                -   nodes are memory locals for next node
+                -   items not necesarily adjacent
+                -   first item 'head,' last item 'tail' 
+
+3) Stack    -   last in is first out: can only take from/place on 'top'
+            -   two operations: push & pop
+                -   push()  -   place item on 'top'
+                -   pop()   -   take item from 'top'
+
+4) Queue    -   first in first out
+            -   operations are enqueue & dequeue
+            
+5) Binary Trees -   start with root node (top of tree, level 0)
+                -   each node has up to two 'children' (level += 1)
+                -   those without children called 'leaves'
+                -   can have 'sub-trees'
+                -   'balanced tree' is even (sides of root have same lvls)
+                Ordered B T -   left child < parent < right child
+                            -   must remain for grandchildren
+                            -   if parent (i): children 2i+1 & 2i+2
+                            -   if child (i): parent floor((i-1)/2)

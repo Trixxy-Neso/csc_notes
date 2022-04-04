@@ -1,0 +1,8 @@
+# A unit is a self-contained component
+    # - function, file, class, module set, ect.
+
+# Coupling  -   linking of two units   -   best loosely coupled
+
+# Cohesion  -   number and diversity of tasks one unit is responsible for
+    # - high cohesion   ->  one task
+    # - low cohesion    ->  many tasks
